@@ -1,20 +1,20 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyDrawingHints="1" simplifyDrawingTol="1" readOnly="0" styleCategories="AllStyleCategories" maxScale="0" labelsEnabled="0" simplifyMaxScale="1" minScale="100000000" simplifyAlgorithm="0" version="3.14.1-Pi">
+<qgis maxScale="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyDrawingTol="1" version="3.14.1-Pi" minScale="100000000" labelsEnabled="0" simplifyDrawingHints="1" simplifyAlgorithm="0" styleCategories="AllStyleCategories" readOnly="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <temporal startExpression="" endExpression="" accumulate="0" durationUnit="min" durationField="" enabled="0" mode="0" fixedDuration="0" endField="" startField="">
+  <temporal startExpression="" fixedDuration="0" durationUnit="min" enabled="0" startField="" accumulate="0" mode="0" endField="" durationField="" endExpression="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+  <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
     <symbols>
-      <symbol alpha="1" force_rhr="0" name="0" type="fill" clip_to_extent="1">
-        <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+      <symbol alpha="1" name="0" clip_to_extent="1" force_rhr="0" type="fill">
+        <layer locked="0" class="SimpleFill" pass="0" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="166,206,227,0" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -28,29 +28,29 @@
           <prop v="solid" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="CentroidFill" enabled="1" pass="0" locked="0">
+        <layer locked="0" class="CentroidFill" pass="0" enabled="1">
           <prop v="0" k="clip_on_current_part_only"/>
           <prop v="0" k="clip_points"/>
           <prop v="1" k="point_on_all_parts"/>
           <prop v="0" k="point_on_surface"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol alpha="1" force_rhr="0" name="@0@1" type="marker" clip_to_extent="1">
-            <layer class="FontMarker" enabled="1" pass="0" locked="0">
+          <symbol alpha="1" name="@0@1" clip_to_extent="1" force_rhr="0" type="marker">
+            <layer locked="0" class="FontMarker" pass="0" enabled="1">
               <prop v="0" k="angle"/>
               <prop v="GFD" k="chr"/>
-              <prop v="243,250,12,255" k="color"/>
+              <prop v="11,250,239,255" k="color"/>
               <prop v="Dingbats" k="font"/>
               <prop v="" k="font_style"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -68,19 +68,19 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="char" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="&quot;Dtich&quot;" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;Dtich&quot;" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
               <prop v="90" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -101,16 +101,16 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer class="FontMarker" enabled="1" pass="0" locked="0">
+            <layer locked="0" class="FontMarker" pass="0" enabled="1">
               <prop v="0" k="angle"/>
               <prop v="HL" k="chr"/>
-              <prop v="243,250,12,255" k="color"/>
+              <prop v="208,35,223,255" k="color"/>
               <prop v="Dingbats" k="font"/>
               <prop v="" k="font_style"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -128,15 +128,48 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="char" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="&quot;Lo&quot;   || '-'  ||   upper(  &quot;LDLR&quot; )" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;Lo&quot;" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer locked="0" class="FontMarker" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="A" k="chr"/>
+              <prop v="8,244,20,255" k="color"/>
+              <prop v="Dingbats" k="font"/>
+              <prop v="" k="font_style"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="-9.59999999999999787,-0.40000000000000002" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties" type="Map">
+                    <Option name="char" type="Map">
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;LDLR&quot;" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
+                    </Option>
+                  </Option>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -149,12 +182,12 @@
   </renderer-v2>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style fontItalic="0" fontFamily="MS Shell Dlg 2" fontCapitals="0" textOpacity="1" fontStrikeout="0" multilineHeight="1" previewBkgrdColor="255,255,255,255" fontWordSpacing="0" fontKerning="1" textColor="0,0,0,255" fontSizeUnit="Point" isExpression="0" fontSize="10" fontWeight="50" fontSizeMapUnitScale="3x:0,0,0,0,0,0" namedStyle="Normale" fontLetterSpacing="0" fontUnderline="0" useSubstitutions="0" allowHtml="0" textOrientation="horizontal" blendMode="0" fieldName="a">
-        <text-buffer bufferColor="255,255,255,255" bufferSizeUnits="MM" bufferNoFill="1" bufferJoinStyle="128" bufferSize="1" bufferOpacity="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="0"/>
-        <text-mask maskEnabled="0" maskType="0" maskJoinStyle="128" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskedSymbolLayers="" maskOpacity="1" maskSizeUnits="MM" maskSize="1.5"/>
-        <background shapeSizeX="0" shapeSizeY="0" shapeBorderWidthUnit="MM" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidth="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeBlendMode="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeFillColor="255,255,255,255" shapeRadiiY="0" shapeBorderColor="128,128,128,255" shapeSizeType="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeRotation="0" shapeRadiiX="0" shapeSizeUnit="MM" shapeOffsetX="0" shapeType="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeOffsetUnit="MM" shapeRadiiUnit="MM">
-          <symbol alpha="1" force_rhr="0" name="markerSymbol" type="marker" clip_to_extent="1">
-            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+      <text-style previewBkgrdColor="255,255,255,255" textOrientation="horizontal" fontWordSpacing="0" fontSizeUnit="Point" fontFamily="MS Shell Dlg 2" namedStyle="Normale" textOpacity="1" fieldName="a" fontCapitals="0" fontStrikeout="0" fontItalic="0" allowHtml="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSize="10" fontUnderline="0" blendMode="0" multilineHeight="1" textColor="0,0,0,255" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" isExpression="0" fontKerning="1">
+        <text-buffer bufferDraw="0" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1" bufferNoFill="1" bufferOpacity="1" bufferSizeUnits="MM" bufferBlendMode="0" bufferColor="255,255,255,255"/>
+        <text-mask maskedSymbolLayers="" maskSize="1.5" maskSizeUnits="MM" maskType="0" maskJoinStyle="128" maskEnabled="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskOpacity="1"/>
+        <background shapeRotationType="0" shapeOffsetY="0" shapeType="0" shapeRadiiY="0" shapeSizeY="0" shapeOpacity="1" shapeDraw="0" shapeRadiiX="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeFillColor="255,255,255,255" shapeOffsetUnit="MM" shapeBorderColor="128,128,128,255" shapeJoinStyle="64" shapeSVGFile="" shapeBorderWidth="0" shapeRotation="0" shapeSizeUnit="MM" shapeBlendMode="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeOffsetX="0">
+          <symbol alpha="1" name="markerSymbol" clip_to_extent="1" force_rhr="0" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
               <prop v="0" k="angle"/>
               <prop v="183,72,75,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -175,62 +208,62 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </background>
-        <shadow shadowOffsetAngle="135" shadowOpacity="0.7" shadowOffsetDist="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowDraw="0" shadowOffsetUnit="MM" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowRadius="1.5" shadowScale="100" shadowBlendMode="6" shadowUnder="0"/>
+        <shadow shadowRadius="1.5" shadowDraw="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowOffsetDist="1" shadowOffsetGlobal="1" shadowRadiusAlphaOnly="0" shadowColor="0,0,0,255" shadowBlendMode="6" shadowOpacity="0.7" shadowUnder="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowOffsetUnit="MM" shadowRadiusUnit="MM"/>
         <dd_properties>
           <Option type="Map">
-            <Option name="name" value="" type="QString"/>
+            <Option value="" name="name" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" value="collection" type="QString"/>
+            <Option value="collection" name="type" type="QString"/>
           </Option>
         </dd_properties>
         <substitutions/>
       </text-style>
-      <text-format decimals="3" leftDirectionSymbol="&lt;" useMaxLineLengthForAutoWrap="1" rightDirectionSymbol=">" wrapChar="" placeDirectionSymbol="0" autoWrapLength="0" addDirectionSymbol="0" formatNumbers="0" plussign="0" multilineAlign="3" reverseDirectionSymbol="0"/>
-      <placement repeatDistanceUnits="MM" centroidWhole="0" repeatDistance="0" rotationAngle="0" centroidInside="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" quadOffset="4" geometryGeneratorType="PointGeometry" maxCurvedCharAngleOut="-25" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" placementFlags="10" yOffset="0" maxCurvedCharAngleIn="25" priority="5" overrunDistanceUnit="MM" offsetUnits="MM" xOffset="0" fitInPolygonOnly="0" layerType="PolygonGeometry" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGenerator="" preserveRotation="1" distMapUnitScale="3x:0,0,0,0,0,0" placement="0" geometryGeneratorEnabled="0" distUnits="MM" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" polygonPlacementFlags="2" overrunDistance="0" dist="0"/>
-      <rendering fontLimitPixelSize="0" scaleMax="0" fontMaxPixelSize="10000" obstacleFactor="1" maxNumLabels="2000" scaleMin="0" obstacleType="1" mergeLines="0" fontMinPixelSize="3" scaleVisibility="0" displayAll="0" upsidedownLabels="0" minFeatureSize="0" limitNumLabels="0" labelPerPart="0" zIndex="0" drawLabels="1" obstacle="1"/>
+      <text-format useMaxLineLengthForAutoWrap="1" leftDirectionSymbol="&lt;" multilineAlign="3" formatNumbers="0" decimals="3" wrapChar="" autoWrapLength="0" placeDirectionSymbol="0" rightDirectionSymbol=">" reverseDirectionSymbol="0" plussign="0" addDirectionSymbol="0"/>
+      <placement dist="0" maxCurvedCharAngleIn="25" repeatDistanceUnits="MM" overrunDistance="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" centroidInside="0" offsetType="0" priority="5" geometryGeneratorType="PointGeometry" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorEnabled="0" fitInPolygonOnly="0" preserveRotation="1" geometryGenerator="" xOffset="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" layerType="PolygonGeometry" placementFlags="10" distUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" overrunDistanceUnit="MM" maxCurvedCharAngleOut="-25" quadOffset="4" yOffset="0" offsetUnits="MM" placement="0" polygonPlacementFlags="2" rotationAngle="0" repeatDistance="0" centroidWhole="0"/>
+      <rendering obstacle="1" fontMaxPixelSize="10000" limitNumLabels="0" mergeLines="0" scaleVisibility="0" obstacleFactor="1" fontMinPixelSize="3" obstacleType="1" fontLimitPixelSize="0" labelPerPart="0" zIndex="0" scaleMax="0" upsidedownLabels="0" scaleMin="0" minFeatureSize="0" drawLabels="1" maxNumLabels="2000" displayAll="0"/>
       <dd_properties>
         <Option type="Map">
-          <Option name="name" value="" type="QString"/>
+          <Option value="" name="name" type="QString"/>
           <Option name="properties"/>
-          <Option name="type" value="collection" type="QString"/>
+          <Option value="collection" name="type" type="QString"/>
         </Option>
       </dd_properties>
       <callout type="simple">
         <Option type="Map">
-          <Option name="anchorPoint" value="pole_of_inaccessibility" type="QString"/>
+          <Option value="pole_of_inaccessibility" name="anchorPoint" type="QString"/>
           <Option name="ddProperties" type="Map">
-            <Option name="name" value="" type="QString"/>
+            <Option value="" name="name" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" value="collection" type="QString"/>
+            <Option value="collection" name="type" type="QString"/>
           </Option>
-          <Option name="drawToAllParts" value="false" type="bool"/>
-          <Option name="enabled" value="0" type="QString"/>
-          <Option name="labelAnchorPoint" value="point_on_exterior" type="QString"/>
-          <Option name="lineSymbol" value="&lt;symbol alpha=&quot;1&quot; force_rhr=&quot;0&quot; name=&quot;symbol&quot; type=&quot;line&quot; clip_to_extent=&quot;1&quot;>&lt;layer class=&quot;SimpleLine&quot; enabled=&quot;1&quot; pass=&quot;0&quot; locked=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" type="QString"/>
-          <Option name="minLength" value="0" type="double"/>
-          <Option name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
-          <Option name="minLengthUnit" value="MM" type="QString"/>
-          <Option name="offsetFromAnchor" value="0" type="double"/>
-          <Option name="offsetFromAnchorMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
-          <Option name="offsetFromAnchorUnit" value="MM" type="QString"/>
-          <Option name="offsetFromLabel" value="0" type="double"/>
-          <Option name="offsetFromLabelMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
-          <Option name="offsetFromLabelUnit" value="MM" type="QString"/>
+          <Option value="false" name="drawToAllParts" type="bool"/>
+          <Option value="0" name="enabled" type="QString"/>
+          <Option value="point_on_exterior" name="labelAnchorPoint" type="QString"/>
+          <Option value="&lt;symbol alpha=&quot;1&quot; name=&quot;symbol&quot; clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; type=&quot;line&quot;>&lt;layer locked=&quot;0&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot; enabled=&quot;1&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;&quot; name=&quot;name&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option value=&quot;collection&quot; name=&quot;type&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol" type="QString"/>
+          <Option value="0" name="minLength" type="double"/>
+          <Option value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale" type="QString"/>
+          <Option value="MM" name="minLengthUnit" type="QString"/>
+          <Option value="0" name="offsetFromAnchor" type="double"/>
+          <Option value="3x:0,0,0,0,0,0" name="offsetFromAnchorMapUnitScale" type="QString"/>
+          <Option value="MM" name="offsetFromAnchorUnit" type="QString"/>
+          <Option value="0" name="offsetFromLabel" type="double"/>
+          <Option value="3x:0,0,0,0,0,0" name="offsetFromLabelMapUnitScale" type="QString"/>
+          <Option value="MM" name="offsetFromLabelUnit" type="QString"/>
         </Option>
       </callout>
     </settings>
   </labeling>
   <customproperties>
-    <property key="dualview/previewExpressions" value="&quot;a&quot;"/>
-    <property key="embeddedWidgets/count" value="0"/>
+    <property value="&quot;a&quot;" key="dualview/previewExpressions"/>
+    <property value="0" key="embeddedWidgets/count"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
@@ -238,12 +271,11 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory enabled="0" spacing="5" direction="0" barWidth="5" spacingUnit="MM" lineSizeScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" penAlpha="255" maxScaleDenominator="1e+08" width="15" rotationOffset="270" spacingUnitScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" diagramOrientation="Up" showAxis="1" minScaleDenominator="0" lineSizeType="MM" sizeType="MM" minimumSize="0" height="15" penWidth="0" penColor="#000000" opacity="1" backgroundColor="#ffffff" scaleDependency="Area" labelPlacementMethod="XHeight" backgroundAlpha="255">
+    <DiagramCategory maxScaleDenominator="1e+08" barWidth="5" backgroundAlpha="255" sizeType="MM" enabled="0" scaleDependency="Area" spacingUnitScale="3x:0,0,0,0,0,0" lineSizeType="MM" showAxis="1" diagramOrientation="Up" opacity="1" spacing="5" penAlpha="255" labelPlacementMethod="XHeight" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" height="15" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" penWidth="0" minScaleDenominator="0" minimumSize="0" spacingUnit="MM" penColor="#000000" rotationOffset="270" direction="0" width="15">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute color="#000000" field="" label=""/>
       <axisSymbol>
-        <symbol alpha="1" force_rhr="0" name="" type="line" clip_to_extent="1">
-          <layer class="SimpleLine" enabled="1" pass="0" locked="0">
+        <symbol alpha="1" name="" clip_to_extent="1" force_rhr="0" type="line">
+          <layer locked="0" class="SimpleLine" pass="0" enabled="1">
             <prop v="square" k="capstyle"/>
             <prop v="5;2" k="customdash"/>
             <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -262,9 +294,9 @@
             <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option name="name" value="" type="QString"/>
+                <Option value="" name="name" type="QString"/>
                 <Option name="properties"/>
-                <Option name="type" value="collection" type="QString"/>
+                <Option value="collection" name="type" type="QString"/>
               </Option>
             </data_defined_properties>
           </layer>
@@ -272,12 +304,12 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings placement="1" obstacle="0" showAll="1" priority="0" zIndex="0" dist="0" linePlacementFlags="18">
+  <DiagramLayerSettings zIndex="0" linePlacementFlags="18" obstacle="0" priority="0" dist="0" showAll="1" placement="1">
     <properties>
       <Option type="Map">
-        <Option name="name" value="" type="QString"/>
+        <Option value="" name="name" type="QString"/>
         <Option name="properties"/>
-        <Option name="type" value="collection" type="QString"/>
+        <Option value="collection" name="type" type="QString"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
@@ -285,9 +317,9 @@
     <activeChecks/>
     <checkConfiguration type="Map">
       <Option name="QgsGeometryGapCheck" type="Map">
-        <Option name="allowedGapsBuffer" value="0" type="double"/>
-        <Option name="allowedGapsEnabled" value="false" type="bool"/>
-        <Option name="allowedGapsLayer" value="" type="QString"/>
+        <Option value="0" name="allowedGapsBuffer" type="double"/>
+        <Option value="false" name="allowedGapsEnabled" type="bool"/>
+        <Option value="" name="allowedGapsLayer" type="QString"/>
       </Option>
     </checkConfiguration>
   </geometryOptions>
@@ -309,21 +341,21 @@
       </editWidget>
     </field>
     <field name="Matinh">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="Mahuyen">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="Maxa">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -358,7 +390,7 @@
       </editWidget>
     </field>
     <field name="Thuad">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -386,7 +418,7 @@
       </editWidget>
     </field>
     <field name="Nggocr">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -400,7 +432,7 @@
       </editWidget>
     </field>
     <field name="MaLDLR">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -414,35 +446,35 @@
       </editWidget>
     </field>
     <field name="NamTr">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="captuoi">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="ktan">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="nggocrt">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="thanhrung">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -477,14 +509,14 @@
       </editWidget>
     </field>
     <field name="lapdia">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="MaLR3">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -498,14 +530,14 @@
       </editWidget>
     </field>
     <field name="mamdsd">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="Dtuong">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -519,42 +551,42 @@
       </editWidget>
     </field>
     <field name="Machur">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="trchap">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="quyensd">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="thoihansd">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="khoan">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="nqh">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -575,21 +607,21 @@
       </editWidget>
     </field>
     <field name="MangNK">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="MangTrCh">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="ngsinh">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -610,14 +642,14 @@
       </editWidget>
     </field>
     <field name="Capkd">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
     <field name="Capvd">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -631,7 +663,7 @@
       </editWidget>
     </field>
     <field name="vitrithua">
-      <editWidget type="TextEdit">
+      <editWidget type="Range">
         <config>
           <Option/>
         </config>
@@ -645,6 +677,13 @@
       </editWidget>
     </field>
     <field name="Huyen">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="testldlr">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -704,226 +743,231 @@
     <alias name="" index="48" field="vitrithua"/>
     <alias name="" index="49" field="Tinh"/>
     <alias name="" index="50" field="Huyen"/>
+    <alias name="" index="51" field="testldlr"/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <defaults>
-    <default expression="" applyOnUpdate="0" field="TT"/>
-    <default expression="" applyOnUpdate="0" field="id"/>
-    <default expression="" applyOnUpdate="0" field="Matinh"/>
-    <default expression="" applyOnUpdate="0" field="Mahuyen"/>
-    <default expression="" applyOnUpdate="0" field="Maxa"/>
-    <default expression="" applyOnUpdate="0" field="Xa"/>
-    <default expression="" applyOnUpdate="0" field="TK"/>
-    <default expression="" applyOnUpdate="0" field="Khoanh"/>
-    <default expression="" applyOnUpdate="0" field="Lo"/>
-    <default expression="" applyOnUpdate="0" field="Thuad"/>
-    <default expression="" applyOnUpdate="0" field="Tobando"/>
-    <default expression="" applyOnUpdate="0" field="Ddanh"/>
-    <default expression="" applyOnUpdate="0" field="Dtich"/>
-    <default expression="" applyOnUpdate="0" field="Nggocr"/>
-    <default expression="" applyOnUpdate="0" field="LDLR"/>
-    <default expression="" applyOnUpdate="0" field="MaLDLR"/>
-    <default expression="" applyOnUpdate="0" field="SLDLR"/>
-    <default expression="" applyOnUpdate="0" field="NamTr"/>
-    <default expression="" applyOnUpdate="0" field="captuoi"/>
-    <default expression="" applyOnUpdate="0" field="ktan"/>
-    <default expression="" applyOnUpdate="0" field="nggocrt"/>
-    <default expression="" applyOnUpdate="0" field="thanhrung"/>
-    <default expression="" applyOnUpdate="0" field="Mgo"/>
-    <default expression="" applyOnUpdate="0" field="MTN"/>
-    <default expression="" applyOnUpdate="0" field="mgolo"/>
-    <default expression="" applyOnUpdate="0" field="mtnlo"/>
-    <default expression="" applyOnUpdate="0" field="lapdia"/>
-    <default expression="" applyOnUpdate="0" field="MaLR3"/>
-    <default expression="" applyOnUpdate="0" field="mdsd"/>
-    <default expression="" applyOnUpdate="0" field="mamdsd"/>
-    <default expression="" applyOnUpdate="0" field="Dtuong"/>
-    <default expression="" applyOnUpdate="0" field="Churung"/>
-    <default expression="" applyOnUpdate="0" field="Machur"/>
-    <default expression="" applyOnUpdate="0" field="trchap"/>
-    <default expression="" applyOnUpdate="0" field="quyensd"/>
-    <default expression="" applyOnUpdate="0" field="thoihansd"/>
-    <default expression="" applyOnUpdate="0" field="khoan"/>
-    <default expression="" applyOnUpdate="0" field="nqh"/>
-    <default expression="" applyOnUpdate="0" field="NguoiNK"/>
-    <default expression="" applyOnUpdate="0" field="NguoiTrCh"/>
-    <default expression="" applyOnUpdate="0" field="MangNK"/>
-    <default expression="" applyOnUpdate="0" field="MangTrCh"/>
-    <default expression="" applyOnUpdate="0" field="ngsinh"/>
-    <default expression="" applyOnUpdate="0" field="KD"/>
-    <default expression="" applyOnUpdate="0" field="VD"/>
-    <default expression="" applyOnUpdate="0" field="Capkd"/>
-    <default expression="" applyOnUpdate="0" field="Capvd"/>
-    <default expression="" applyOnUpdate="0" field="locu"/>
-    <default expression="" applyOnUpdate="0" field="vitrithua"/>
-    <default expression="" applyOnUpdate="0" field="Tinh"/>
-    <default expression="" applyOnUpdate="0" field="Huyen"/>
+    <default applyOnUpdate="0" expression="" field="TT"/>
+    <default applyOnUpdate="0" expression="" field="id"/>
+    <default applyOnUpdate="0" expression="" field="Matinh"/>
+    <default applyOnUpdate="0" expression="" field="Mahuyen"/>
+    <default applyOnUpdate="0" expression="" field="Maxa"/>
+    <default applyOnUpdate="0" expression="" field="Xa"/>
+    <default applyOnUpdate="0" expression="" field="TK"/>
+    <default applyOnUpdate="0" expression="" field="Khoanh"/>
+    <default applyOnUpdate="0" expression="" field="Lo"/>
+    <default applyOnUpdate="0" expression="" field="Thuad"/>
+    <default applyOnUpdate="0" expression="" field="Tobando"/>
+    <default applyOnUpdate="0" expression="" field="Ddanh"/>
+    <default applyOnUpdate="0" expression="" field="Dtich"/>
+    <default applyOnUpdate="0" expression="" field="Nggocr"/>
+    <default applyOnUpdate="0" expression="" field="LDLR"/>
+    <default applyOnUpdate="0" expression="" field="MaLDLR"/>
+    <default applyOnUpdate="0" expression="" field="SLDLR"/>
+    <default applyOnUpdate="0" expression="" field="NamTr"/>
+    <default applyOnUpdate="0" expression="" field="captuoi"/>
+    <default applyOnUpdate="0" expression="" field="ktan"/>
+    <default applyOnUpdate="0" expression="" field="nggocrt"/>
+    <default applyOnUpdate="0" expression="" field="thanhrung"/>
+    <default applyOnUpdate="0" expression="" field="Mgo"/>
+    <default applyOnUpdate="0" expression="" field="MTN"/>
+    <default applyOnUpdate="0" expression="" field="mgolo"/>
+    <default applyOnUpdate="0" expression="" field="mtnlo"/>
+    <default applyOnUpdate="0" expression="" field="lapdia"/>
+    <default applyOnUpdate="0" expression="" field="MaLR3"/>
+    <default applyOnUpdate="0" expression="" field="mdsd"/>
+    <default applyOnUpdate="0" expression="" field="mamdsd"/>
+    <default applyOnUpdate="0" expression="" field="Dtuong"/>
+    <default applyOnUpdate="0" expression="" field="Churung"/>
+    <default applyOnUpdate="0" expression="" field="Machur"/>
+    <default applyOnUpdate="0" expression="" field="trchap"/>
+    <default applyOnUpdate="0" expression="" field="quyensd"/>
+    <default applyOnUpdate="0" expression="" field="thoihansd"/>
+    <default applyOnUpdate="0" expression="" field="khoan"/>
+    <default applyOnUpdate="0" expression="" field="nqh"/>
+    <default applyOnUpdate="0" expression="" field="NguoiNK"/>
+    <default applyOnUpdate="0" expression="" field="NguoiTrCh"/>
+    <default applyOnUpdate="0" expression="" field="MangNK"/>
+    <default applyOnUpdate="0" expression="" field="MangTrCh"/>
+    <default applyOnUpdate="0" expression="" field="ngsinh"/>
+    <default applyOnUpdate="0" expression="" field="KD"/>
+    <default applyOnUpdate="0" expression="" field="VD"/>
+    <default applyOnUpdate="0" expression="" field="Capkd"/>
+    <default applyOnUpdate="0" expression="" field="Capvd"/>
+    <default applyOnUpdate="0" expression="" field="locu"/>
+    <default applyOnUpdate="0" expression="" field="vitrithua"/>
+    <default applyOnUpdate="0" expression="" field="Tinh"/>
+    <default applyOnUpdate="0" expression="" field="Huyen"/>
+    <default applyOnUpdate="0" expression="" field="testldlr"/>
   </defaults>
   <constraints>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="TT" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="id" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Matinh" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Mahuyen" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Maxa" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Xa" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="TK" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Khoanh" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Lo" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Thuad" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Tobando" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Ddanh" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Dtich" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Nggocr" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="LDLR" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="MaLDLR" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="SLDLR" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="NamTr" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="captuoi" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="ktan" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="nggocrt" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="thanhrung" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Mgo" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="MTN" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="mgolo" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="mtnlo" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="lapdia" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="MaLR3" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="mdsd" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="mamdsd" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Dtuong" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Churung" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Machur" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="trchap" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="quyensd" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="thoihansd" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="khoan" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="nqh" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="NguoiNK" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="NguoiTrCh" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="MangNK" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="MangTrCh" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="ngsinh" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="KD" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="VD" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Capkd" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Capvd" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="locu" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="vitrithua" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Tinh" notnull_strength="0"/>
-    <constraint constraints="0" exp_strength="0" unique_strength="0" field="Huyen" notnull_strength="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="TT" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Matinh" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Mahuyen" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Maxa" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Xa" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="TK" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Khoanh" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Lo" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Thuad" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Tobando" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Ddanh" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Dtich" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Nggocr" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="LDLR" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="MaLDLR" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="SLDLR" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="NamTr" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="captuoi" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="ktan" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="nggocrt" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="thanhrung" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Mgo" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="MTN" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="mgolo" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="mtnlo" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="lapdia" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="MaLR3" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="mdsd" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="mamdsd" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Dtuong" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Churung" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Machur" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="trchap" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="quyensd" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="thoihansd" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="khoan" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="nqh" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="NguoiNK" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="NguoiTrCh" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="MangNK" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="MangTrCh" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="ngsinh" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="KD" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="VD" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Capkd" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Capvd" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="locu" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vitrithua" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Tinh" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Huyen" constraints="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="testldlr" constraints="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint desc="" field="TT" exp=""/>
-    <constraint desc="" field="id" exp=""/>
-    <constraint desc="" field="Matinh" exp=""/>
-    <constraint desc="" field="Mahuyen" exp=""/>
-    <constraint desc="" field="Maxa" exp=""/>
-    <constraint desc="" field="Xa" exp=""/>
-    <constraint desc="" field="TK" exp=""/>
-    <constraint desc="" field="Khoanh" exp=""/>
-    <constraint desc="" field="Lo" exp=""/>
-    <constraint desc="" field="Thuad" exp=""/>
-    <constraint desc="" field="Tobando" exp=""/>
-    <constraint desc="" field="Ddanh" exp=""/>
-    <constraint desc="" field="Dtich" exp=""/>
-    <constraint desc="" field="Nggocr" exp=""/>
-    <constraint desc="" field="LDLR" exp=""/>
-    <constraint desc="" field="MaLDLR" exp=""/>
-    <constraint desc="" field="SLDLR" exp=""/>
-    <constraint desc="" field="NamTr" exp=""/>
-    <constraint desc="" field="captuoi" exp=""/>
-    <constraint desc="" field="ktan" exp=""/>
-    <constraint desc="" field="nggocrt" exp=""/>
-    <constraint desc="" field="thanhrung" exp=""/>
-    <constraint desc="" field="Mgo" exp=""/>
-    <constraint desc="" field="MTN" exp=""/>
-    <constraint desc="" field="mgolo" exp=""/>
-    <constraint desc="" field="mtnlo" exp=""/>
-    <constraint desc="" field="lapdia" exp=""/>
-    <constraint desc="" field="MaLR3" exp=""/>
-    <constraint desc="" field="mdsd" exp=""/>
-    <constraint desc="" field="mamdsd" exp=""/>
-    <constraint desc="" field="Dtuong" exp=""/>
-    <constraint desc="" field="Churung" exp=""/>
-    <constraint desc="" field="Machur" exp=""/>
-    <constraint desc="" field="trchap" exp=""/>
-    <constraint desc="" field="quyensd" exp=""/>
-    <constraint desc="" field="thoihansd" exp=""/>
-    <constraint desc="" field="khoan" exp=""/>
-    <constraint desc="" field="nqh" exp=""/>
-    <constraint desc="" field="NguoiNK" exp=""/>
-    <constraint desc="" field="NguoiTrCh" exp=""/>
-    <constraint desc="" field="MangNK" exp=""/>
-    <constraint desc="" field="MangTrCh" exp=""/>
-    <constraint desc="" field="ngsinh" exp=""/>
-    <constraint desc="" field="KD" exp=""/>
-    <constraint desc="" field="VD" exp=""/>
-    <constraint desc="" field="Capkd" exp=""/>
-    <constraint desc="" field="Capvd" exp=""/>
-    <constraint desc="" field="locu" exp=""/>
-    <constraint desc="" field="vitrithua" exp=""/>
-    <constraint desc="" field="Tinh" exp=""/>
-    <constraint desc="" field="Huyen" exp=""/>
+    <constraint desc="" exp="" field="TT"/>
+    <constraint desc="" exp="" field="id"/>
+    <constraint desc="" exp="" field="Matinh"/>
+    <constraint desc="" exp="" field="Mahuyen"/>
+    <constraint desc="" exp="" field="Maxa"/>
+    <constraint desc="" exp="" field="Xa"/>
+    <constraint desc="" exp="" field="TK"/>
+    <constraint desc="" exp="" field="Khoanh"/>
+    <constraint desc="" exp="" field="Lo"/>
+    <constraint desc="" exp="" field="Thuad"/>
+    <constraint desc="" exp="" field="Tobando"/>
+    <constraint desc="" exp="" field="Ddanh"/>
+    <constraint desc="" exp="" field="Dtich"/>
+    <constraint desc="" exp="" field="Nggocr"/>
+    <constraint desc="" exp="" field="LDLR"/>
+    <constraint desc="" exp="" field="MaLDLR"/>
+    <constraint desc="" exp="" field="SLDLR"/>
+    <constraint desc="" exp="" field="NamTr"/>
+    <constraint desc="" exp="" field="captuoi"/>
+    <constraint desc="" exp="" field="ktan"/>
+    <constraint desc="" exp="" field="nggocrt"/>
+    <constraint desc="" exp="" field="thanhrung"/>
+    <constraint desc="" exp="" field="Mgo"/>
+    <constraint desc="" exp="" field="MTN"/>
+    <constraint desc="" exp="" field="mgolo"/>
+    <constraint desc="" exp="" field="mtnlo"/>
+    <constraint desc="" exp="" field="lapdia"/>
+    <constraint desc="" exp="" field="MaLR3"/>
+    <constraint desc="" exp="" field="mdsd"/>
+    <constraint desc="" exp="" field="mamdsd"/>
+    <constraint desc="" exp="" field="Dtuong"/>
+    <constraint desc="" exp="" field="Churung"/>
+    <constraint desc="" exp="" field="Machur"/>
+    <constraint desc="" exp="" field="trchap"/>
+    <constraint desc="" exp="" field="quyensd"/>
+    <constraint desc="" exp="" field="thoihansd"/>
+    <constraint desc="" exp="" field="khoan"/>
+    <constraint desc="" exp="" field="nqh"/>
+    <constraint desc="" exp="" field="NguoiNK"/>
+    <constraint desc="" exp="" field="NguoiTrCh"/>
+    <constraint desc="" exp="" field="MangNK"/>
+    <constraint desc="" exp="" field="MangTrCh"/>
+    <constraint desc="" exp="" field="ngsinh"/>
+    <constraint desc="" exp="" field="KD"/>
+    <constraint desc="" exp="" field="VD"/>
+    <constraint desc="" exp="" field="Capkd"/>
+    <constraint desc="" exp="" field="Capvd"/>
+    <constraint desc="" exp="" field="locu"/>
+    <constraint desc="" exp="" field="vitrithua"/>
+    <constraint desc="" exp="" field="Tinh"/>
+    <constraint desc="" exp="" field="Huyen"/>
+    <constraint desc="" exp="" field="testldlr"/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
     <columns>
-      <column hidden="1" width="-1" type="actions"/>
-      <column name="TT" hidden="0" width="-1" type="field"/>
-      <column name="id" hidden="0" width="-1" type="field"/>
-      <column name="Matinh" hidden="0" width="-1" type="field"/>
-      <column name="Mahuyen" hidden="0" width="-1" type="field"/>
-      <column name="Maxa" hidden="0" width="-1" type="field"/>
-      <column name="Xa" hidden="0" width="-1" type="field"/>
-      <column name="TK" hidden="0" width="-1" type="field"/>
-      <column name="Khoanh" hidden="0" width="-1" type="field"/>
-      <column name="Lo" hidden="0" width="-1" type="field"/>
-      <column name="Thuad" hidden="0" width="-1" type="field"/>
-      <column name="Tobando" hidden="0" width="-1" type="field"/>
-      <column name="Ddanh" hidden="0" width="-1" type="field"/>
-      <column name="Dtich" hidden="0" width="-1" type="field"/>
-      <column name="Nggocr" hidden="0" width="-1" type="field"/>
-      <column name="LDLR" hidden="0" width="-1" type="field"/>
-      <column name="MaLDLR" hidden="0" width="-1" type="field"/>
-      <column name="SLDLR" hidden="0" width="-1" type="field"/>
-      <column name="NamTr" hidden="0" width="-1" type="field"/>
-      <column name="captuoi" hidden="0" width="-1" type="field"/>
-      <column name="ktan" hidden="0" width="-1" type="field"/>
-      <column name="nggocrt" hidden="0" width="-1" type="field"/>
-      <column name="thanhrung" hidden="0" width="-1" type="field"/>
-      <column name="Mgo" hidden="0" width="-1" type="field"/>
-      <column name="MTN" hidden="0" width="-1" type="field"/>
-      <column name="mgolo" hidden="0" width="-1" type="field"/>
-      <column name="mtnlo" hidden="0" width="-1" type="field"/>
-      <column name="lapdia" hidden="0" width="-1" type="field"/>
-      <column name="MaLR3" hidden="0" width="-1" type="field"/>
-      <column name="mdsd" hidden="0" width="-1" type="field"/>
-      <column name="mamdsd" hidden="0" width="-1" type="field"/>
-      <column name="Dtuong" hidden="0" width="-1" type="field"/>
-      <column name="Churung" hidden="0" width="-1" type="field"/>
-      <column name="Machur" hidden="0" width="-1" type="field"/>
-      <column name="trchap" hidden="0" width="-1" type="field"/>
-      <column name="quyensd" hidden="0" width="-1" type="field"/>
-      <column name="thoihansd" hidden="0" width="-1" type="field"/>
-      <column name="khoan" hidden="0" width="-1" type="field"/>
-      <column name="nqh" hidden="0" width="-1" type="field"/>
-      <column name="NguoiNK" hidden="0" width="-1" type="field"/>
-      <column name="NguoiTrCh" hidden="0" width="-1" type="field"/>
-      <column name="MangNK" hidden="0" width="-1" type="field"/>
-      <column name="MangTrCh" hidden="0" width="-1" type="field"/>
-      <column name="ngsinh" hidden="0" width="-1" type="field"/>
-      <column name="KD" hidden="0" width="-1" type="field"/>
-      <column name="VD" hidden="0" width="-1" type="field"/>
-      <column name="Capkd" hidden="0" width="-1" type="field"/>
-      <column name="Capvd" hidden="0" width="-1" type="field"/>
-      <column name="locu" hidden="0" width="-1" type="field"/>
-      <column name="vitrithua" hidden="0" width="-1" type="field"/>
-      <column name="Tinh" hidden="0" width="-1" type="field"/>
-      <column name="Huyen" hidden="0" width="-1" type="field"/>
+      <column width="-1" type="actions" hidden="1"/>
+      <column name="id" width="-1" type="field" hidden="0"/>
+      <column name="TT" width="-1" type="field" hidden="0"/>
+      <column name="Matinh" width="-1" type="field" hidden="0"/>
+      <column name="Mahuyen" width="-1" type="field" hidden="0"/>
+      <column name="Maxa" width="-1" type="field" hidden="0"/>
+      <column name="Xa" width="-1" type="field" hidden="0"/>
+      <column name="TK" width="-1" type="field" hidden="0"/>
+      <column name="Khoanh" width="-1" type="field" hidden="0"/>
+      <column name="Lo" width="-1" type="field" hidden="0"/>
+      <column name="Thuad" width="-1" type="field" hidden="0"/>
+      <column name="Tobando" width="-1" type="field" hidden="0"/>
+      <column name="Ddanh" width="-1" type="field" hidden="0"/>
+      <column name="Dtich" width="-1" type="field" hidden="0"/>
+      <column name="Nggocr" width="-1" type="field" hidden="0"/>
+      <column name="LDLR" width="-1" type="field" hidden="0"/>
+      <column name="MaLDLR" width="-1" type="field" hidden="0"/>
+      <column name="SLDLR" width="-1" type="field" hidden="0"/>
+      <column name="NamTr" width="-1" type="field" hidden="0"/>
+      <column name="captuoi" width="-1" type="field" hidden="0"/>
+      <column name="ktan" width="-1" type="field" hidden="0"/>
+      <column name="nggocrt" width="-1" type="field" hidden="0"/>
+      <column name="thanhrung" width="-1" type="field" hidden="0"/>
+      <column name="Mgo" width="-1" type="field" hidden="0"/>
+      <column name="MTN" width="-1" type="field" hidden="0"/>
+      <column name="mgolo" width="-1" type="field" hidden="0"/>
+      <column name="mtnlo" width="-1" type="field" hidden="0"/>
+      <column name="lapdia" width="-1" type="field" hidden="0"/>
+      <column name="MaLR3" width="-1" type="field" hidden="0"/>
+      <column name="mdsd" width="-1" type="field" hidden="0"/>
+      <column name="mamdsd" width="-1" type="field" hidden="0"/>
+      <column name="Dtuong" width="-1" type="field" hidden="0"/>
+      <column name="Churung" width="-1" type="field" hidden="0"/>
+      <column name="Machur" width="-1" type="field" hidden="0"/>
+      <column name="trchap" width="-1" type="field" hidden="0"/>
+      <column name="quyensd" width="-1" type="field" hidden="0"/>
+      <column name="thoihansd" width="-1" type="field" hidden="0"/>
+      <column name="khoan" width="-1" type="field" hidden="0"/>
+      <column name="nqh" width="-1" type="field" hidden="0"/>
+      <column name="NguoiNK" width="-1" type="field" hidden="0"/>
+      <column name="NguoiTrCh" width="-1" type="field" hidden="0"/>
+      <column name="MangNK" width="-1" type="field" hidden="0"/>
+      <column name="MangTrCh" width="-1" type="field" hidden="0"/>
+      <column name="ngsinh" width="-1" type="field" hidden="0"/>
+      <column name="KD" width="-1" type="field" hidden="0"/>
+      <column name="VD" width="-1" type="field" hidden="0"/>
+      <column name="Capkd" width="-1" type="field" hidden="0"/>
+      <column name="Capvd" width="-1" type="field" hidden="0"/>
+      <column name="locu" width="-1" type="field" hidden="0"/>
+      <column name="vitrithua" width="-1" type="field" hidden="0"/>
+      <column name="Tinh" width="-1" type="field" hidden="0"/>
+      <column name="Huyen" width="-1" type="field" hidden="0"/>
+      <column name="testldlr" width="-1" type="field" hidden="0"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -1020,6 +1064,8 @@ def my_form_open(dialog, layer, feature):
     <field name="land_use_c" editable="1"/>
     <field name="land_use_t" editable="1"/>
     <field name="lapdia" editable="1"/>
+    <field name="ldlr_lowca" editable="1"/>
+    <field name="ldlr_upper" editable="1"/>
     <field name="locu" editable="1"/>
     <field name="mamdsd" editable="1"/>
     <field name="map_sheet" editable="1"/>
@@ -1049,6 +1095,7 @@ def my_form_open(dialog, layer, feature):
     <field name="stems_no_b" editable="1"/>
     <field name="stems_no_t" editable="1"/>
     <field name="sub_compt_" editable="1"/>
+    <field name="testldlr" editable="1"/>
     <field name="thanhrung" editable="1"/>
     <field name="thoihansd" editable="1"/>
     <field name="trchap" editable="1"/>
@@ -1062,112 +1109,115 @@ def my_form_open(dialog, layer, feature):
     <field name="volume_per" editable="1"/>
   </editable>
   <labelOnTop>
-    <field name="Capkd" labelOnTop="0"/>
-    <field name="Capvd" labelOnTop="0"/>
-    <field name="Churung" labelOnTop="0"/>
-    <field name="Ddanh" labelOnTop="0"/>
-    <field name="Dtich" labelOnTop="0"/>
-    <field name="Dtuong" labelOnTop="0"/>
-    <field name="Huyen" labelOnTop="0"/>
-    <field name="KD" labelOnTop="0"/>
-    <field name="Khoanh" labelOnTop="0"/>
-    <field name="LDLR" labelOnTop="0"/>
-    <field name="Lo" labelOnTop="0"/>
-    <field name="MTN" labelOnTop="0"/>
-    <field name="MaLDLR" labelOnTop="0"/>
-    <field name="MaLR3" labelOnTop="0"/>
-    <field name="Machur" labelOnTop="0"/>
-    <field name="Mahuyen" labelOnTop="0"/>
-    <field name="MangNK" labelOnTop="0"/>
-    <field name="MangTrCh" labelOnTop="0"/>
-    <field name="Matinh" labelOnTop="0"/>
-    <field name="Maxa" labelOnTop="0"/>
-    <field name="Mgo" labelOnTop="0"/>
-    <field name="NamTr" labelOnTop="0"/>
-    <field name="Nggocr" labelOnTop="0"/>
-    <field name="NguoiNK" labelOnTop="0"/>
-    <field name="NguoiTrCh" labelOnTop="0"/>
-    <field name="SLDLR" labelOnTop="0"/>
-    <field name="TK" labelOnTop="0"/>
-    <field name="TT" labelOnTop="0"/>
-    <field name="Thuad" labelOnTop="0"/>
-    <field name="Tinh" labelOnTop="0"/>
-    <field name="Tobando" labelOnTop="0"/>
-    <field name="VD" labelOnTop="0"/>
-    <field name="Xa" labelOnTop="0"/>
-    <field name="_matched_r" labelOnTop="0"/>
-    <field name="a" labelOnTop="0"/>
-    <field name="actor_id" labelOnTop="0"/>
-    <field name="actor_id_c" labelOnTop="0"/>
-    <field name="actor_id_p" labelOnTop="0"/>
-    <field name="actor_type" labelOnTop="0"/>
-    <field name="area" labelOnTop="0"/>
-    <field name="area_affec" labelOnTop="0"/>
-    <field name="avg_year_c" labelOnTop="0"/>
-    <field name="b" labelOnTop="0"/>
-    <field name="c" labelOnTop="0"/>
-    <field name="captuoi" labelOnTop="0"/>
-    <field name="change_t00" labelOnTop="0"/>
-    <field name="change_typ" labelOnTop="0"/>
-    <field name="commune_co" labelOnTop="0"/>
-    <field name="compt_code" labelOnTop="0"/>
-    <field name="conflict_s" labelOnTop="0"/>
-    <field name="date_time" labelOnTop="0"/>
-    <field name="density_ba" labelOnTop="0"/>
-    <field name="density_wo" labelOnTop="0"/>
-    <field name="desc" labelOnTop="0"/>
-    <field name="desc_monit" labelOnTop="0"/>
-    <field name="district_c" labelOnTop="0"/>
-    <field name="forest_fun" labelOnTop="0"/>
-    <field name="forest_org" labelOnTop="0"/>
-    <field name="forest_typ" labelOnTop="0"/>
-    <field name="forest_use" labelOnTop="0"/>
-    <field name="id" labelOnTop="0"/>
-    <field name="khoan" labelOnTop="0"/>
-    <field name="ktan" labelOnTop="0"/>
-    <field name="land_use_c" labelOnTop="0"/>
-    <field name="land_use_t" labelOnTop="0"/>
-    <field name="lapdia" labelOnTop="0"/>
-    <field name="locu" labelOnTop="0"/>
-    <field name="mamdsd" labelOnTop="0"/>
-    <field name="map_sheet" labelOnTop="0"/>
-    <field name="mdsd" labelOnTop="0"/>
-    <field name="method_pla" labelOnTop="0"/>
-    <field name="mgolo" labelOnTop="0"/>
-    <field name="mtnlo" labelOnTop="0"/>
-    <field name="nar_for_or" labelOnTop="0"/>
-    <field name="nggocrt" labelOnTop="0"/>
-    <field name="ngsinh" labelOnTop="0"/>
-    <field name="nqh" labelOnTop="0"/>
-    <field name="old_plot_c" labelOnTop="0"/>
-    <field name="p_forest_o" labelOnTop="0"/>
-    <field name="parcel_cod" labelOnTop="0"/>
-    <field name="plant_stat" labelOnTop="0"/>
-    <field name="planting_y" labelOnTop="0"/>
-    <field name="plot_code" labelOnTop="0"/>
-    <field name="plot_uuid" labelOnTop="0"/>
-    <field name="pos_status" labelOnTop="0"/>
-    <field name="prot_contr" labelOnTop="0"/>
-    <field name="province_c" labelOnTop="0"/>
-    <field name="quyensd" labelOnTop="0"/>
-    <field name="site_cond_" labelOnTop="0"/>
-    <field name="stem_per_h" labelOnTop="0"/>
-    <field name="stem_per_p" labelOnTop="0"/>
-    <field name="stems_no_a" labelOnTop="0"/>
-    <field name="stems_no_b" labelOnTop="0"/>
-    <field name="stems_no_t" labelOnTop="0"/>
-    <field name="sub_compt_" labelOnTop="0"/>
-    <field name="thanhrung" labelOnTop="0"/>
-    <field name="thoihansd" labelOnTop="0"/>
-    <field name="trchap" labelOnTop="0"/>
-    <field name="tree_spec_" labelOnTop="0"/>
-    <field name="ts_created" labelOnTop="0"/>
-    <field name="ts_modifie" labelOnTop="0"/>
-    <field name="village" labelOnTop="0"/>
-    <field name="vitrithua" labelOnTop="0"/>
-    <field name="volume_aff" labelOnTop="0"/>
-    <field name="volume_p00" labelOnTop="0"/>
-    <field name="volume_per" labelOnTop="0"/>
+    <field labelOnTop="0" name="Capkd"/>
+    <field labelOnTop="0" name="Capvd"/>
+    <field labelOnTop="0" name="Churung"/>
+    <field labelOnTop="0" name="Ddanh"/>
+    <field labelOnTop="0" name="Dtich"/>
+    <field labelOnTop="0" name="Dtuong"/>
+    <field labelOnTop="0" name="Huyen"/>
+    <field labelOnTop="0" name="KD"/>
+    <field labelOnTop="0" name="Khoanh"/>
+    <field labelOnTop="0" name="LDLR"/>
+    <field labelOnTop="0" name="Lo"/>
+    <field labelOnTop="0" name="MTN"/>
+    <field labelOnTop="0" name="MaLDLR"/>
+    <field labelOnTop="0" name="MaLR3"/>
+    <field labelOnTop="0" name="Machur"/>
+    <field labelOnTop="0" name="Mahuyen"/>
+    <field labelOnTop="0" name="MangNK"/>
+    <field labelOnTop="0" name="MangTrCh"/>
+    <field labelOnTop="0" name="Matinh"/>
+    <field labelOnTop="0" name="Maxa"/>
+    <field labelOnTop="0" name="Mgo"/>
+    <field labelOnTop="0" name="NamTr"/>
+    <field labelOnTop="0" name="Nggocr"/>
+    <field labelOnTop="0" name="NguoiNK"/>
+    <field labelOnTop="0" name="NguoiTrCh"/>
+    <field labelOnTop="0" name="SLDLR"/>
+    <field labelOnTop="0" name="TK"/>
+    <field labelOnTop="0" name="TT"/>
+    <field labelOnTop="0" name="Thuad"/>
+    <field labelOnTop="0" name="Tinh"/>
+    <field labelOnTop="0" name="Tobando"/>
+    <field labelOnTop="0" name="VD"/>
+    <field labelOnTop="0" name="Xa"/>
+    <field labelOnTop="0" name="_matched_r"/>
+    <field labelOnTop="0" name="a"/>
+    <field labelOnTop="0" name="actor_id"/>
+    <field labelOnTop="0" name="actor_id_c"/>
+    <field labelOnTop="0" name="actor_id_p"/>
+    <field labelOnTop="0" name="actor_type"/>
+    <field labelOnTop="0" name="area"/>
+    <field labelOnTop="0" name="area_affec"/>
+    <field labelOnTop="0" name="avg_year_c"/>
+    <field labelOnTop="0" name="b"/>
+    <field labelOnTop="0" name="c"/>
+    <field labelOnTop="0" name="captuoi"/>
+    <field labelOnTop="0" name="change_t00"/>
+    <field labelOnTop="0" name="change_typ"/>
+    <field labelOnTop="0" name="commune_co"/>
+    <field labelOnTop="0" name="compt_code"/>
+    <field labelOnTop="0" name="conflict_s"/>
+    <field labelOnTop="0" name="date_time"/>
+    <field labelOnTop="0" name="density_ba"/>
+    <field labelOnTop="0" name="density_wo"/>
+    <field labelOnTop="0" name="desc"/>
+    <field labelOnTop="0" name="desc_monit"/>
+    <field labelOnTop="0" name="district_c"/>
+    <field labelOnTop="0" name="forest_fun"/>
+    <field labelOnTop="0" name="forest_org"/>
+    <field labelOnTop="0" name="forest_typ"/>
+    <field labelOnTop="0" name="forest_use"/>
+    <field labelOnTop="0" name="id"/>
+    <field labelOnTop="0" name="khoan"/>
+    <field labelOnTop="0" name="ktan"/>
+    <field labelOnTop="0" name="land_use_c"/>
+    <field labelOnTop="0" name="land_use_t"/>
+    <field labelOnTop="0" name="lapdia"/>
+    <field labelOnTop="0" name="ldlr_lowca"/>
+    <field labelOnTop="0" name="ldlr_upper"/>
+    <field labelOnTop="0" name="locu"/>
+    <field labelOnTop="0" name="mamdsd"/>
+    <field labelOnTop="0" name="map_sheet"/>
+    <field labelOnTop="0" name="mdsd"/>
+    <field labelOnTop="0" name="method_pla"/>
+    <field labelOnTop="0" name="mgolo"/>
+    <field labelOnTop="0" name="mtnlo"/>
+    <field labelOnTop="0" name="nar_for_or"/>
+    <field labelOnTop="0" name="nggocrt"/>
+    <field labelOnTop="0" name="ngsinh"/>
+    <field labelOnTop="0" name="nqh"/>
+    <field labelOnTop="0" name="old_plot_c"/>
+    <field labelOnTop="0" name="p_forest_o"/>
+    <field labelOnTop="0" name="parcel_cod"/>
+    <field labelOnTop="0" name="plant_stat"/>
+    <field labelOnTop="0" name="planting_y"/>
+    <field labelOnTop="0" name="plot_code"/>
+    <field labelOnTop="0" name="plot_uuid"/>
+    <field labelOnTop="0" name="pos_status"/>
+    <field labelOnTop="0" name="prot_contr"/>
+    <field labelOnTop="0" name="province_c"/>
+    <field labelOnTop="0" name="quyensd"/>
+    <field labelOnTop="0" name="site_cond_"/>
+    <field labelOnTop="0" name="stem_per_h"/>
+    <field labelOnTop="0" name="stem_per_p"/>
+    <field labelOnTop="0" name="stems_no_a"/>
+    <field labelOnTop="0" name="stems_no_b"/>
+    <field labelOnTop="0" name="stems_no_t"/>
+    <field labelOnTop="0" name="sub_compt_"/>
+    <field labelOnTop="0" name="testldlr"/>
+    <field labelOnTop="0" name="thanhrung"/>
+    <field labelOnTop="0" name="thoihansd"/>
+    <field labelOnTop="0" name="trchap"/>
+    <field labelOnTop="0" name="tree_spec_"/>
+    <field labelOnTop="0" name="ts_created"/>
+    <field labelOnTop="0" name="ts_modifie"/>
+    <field labelOnTop="0" name="village"/>
+    <field labelOnTop="0" name="vitrithua"/>
+    <field labelOnTop="0" name="volume_aff"/>
+    <field labelOnTop="0" name="volume_p00"/>
+    <field labelOnTop="0" name="volume_per"/>
   </labelOnTop>
   <dataDefinedFieldProperties/>
   <widgets/>
